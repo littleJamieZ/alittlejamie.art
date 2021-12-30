@@ -1,5 +1,13 @@
+h1{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+
 p {
   width: 72%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1em;
 }
 
 img {
@@ -26,6 +34,7 @@ img {
   margin: 21px 0;
   font-size: 0.9rem;
   transition: .2s;
+  border: none;
 }
 
 .portfolio-button:hover {
