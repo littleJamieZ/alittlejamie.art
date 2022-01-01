@@ -1,6 +1,6 @@
 /* Mobile view */
 body {
-  align-items: start;
+  align-items: flex-start;
 }
 
 
@@ -28,7 +28,7 @@ p {
 .mobile-text-wrapper-bot {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   height: 60vh; 
 }
