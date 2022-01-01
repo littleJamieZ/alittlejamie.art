@@ -11,21 +11,21 @@ h1{
 }
 
 p {
-  width: 86%;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 19px;
   line-height: 1;
 }
 
-.mobile-text-wrapper {
+.text-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 40vh;
+  width: 86%;
 }
 
-.mobile-text-wrapper-bot {
+.text-wrapper-bot {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -64,6 +64,7 @@ img {
 
 .icon-wrapper {
   display:flex;
+  justify-content: center;
 }
 
 .behance-logo {
@@ -118,6 +119,7 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: auto;
   }
   
   img {

@@ -16,6 +16,7 @@ function App() {
         <a href="https://jamiezhao.site/" >
           <button className="portfolio-button">Check Portfolio</button>
         </a>
+
         <div className="icon-wrapper">
         <a href="https://www.behance.net/msjamie/moodboards" >
           <BehanceLogo className="behance-logo"/>
