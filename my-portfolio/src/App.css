@@ -59,12 +59,7 @@ img {
   transition: .2s;
   border: none;
   margin-top: 46px;
-}
-
-.portfolio-button:hover {
-  font-size: 1rem;
-  padding: 10px;
-  transition: .2s;
+  background-color: whitesmoke;
 }
 
 .icon-wrapper {
@@ -79,11 +74,11 @@ img {
 }
 
 
-#root > div > div.mobile-text-wrapper-bot > div > a:nth-child(1) > svg > circle {
+#root > div > div.text-wrapper-bot > div > a:nth-child(1) > svg > circle {
   fill: dimgrey;
 }
 
-#root > div > div.mobile-text-wrapper-bot > div > a:nth-child(2) > svg > circle {
+#root > div > div.text-wrapper-bot > div > a:nth-child(2) > svg > circle {
   fill: dimgrey;
 }
 /* #root > div > div > a:nth-child(1) > svg > circle{
@@ -106,9 +101,23 @@ img {
   }
   
   p {
-    width: 72%;
+    width: 85%;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1em;
+  }
+
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-wrapper-bot {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
   
   img {
@@ -138,12 +147,6 @@ img {
     border: none;
   }
   
-  .portfolio-button:hover {
-    font-size: 1rem;
-    padding: 10px;
-    transition: .2s;
-  }
-  
   .icon-wrapper {
     display:flex;
   }
@@ -155,13 +158,11 @@ img {
    
   }
   
-  
-  #root > div > div > a:nth-child(2) > svg > circle {
+  #root > div > div.text-wrapper-bot > div > a:nth-child(1) > svg > circle {
     fill: dimgrey;
   }
   
-  
-  #root > div > div > a:nth-child(1) > svg > circle{
+  #root > div > div.text-wrapper-bot > div > a:nth-child(2) > svg > circle {
     fill: dimgrey;
   }
   
