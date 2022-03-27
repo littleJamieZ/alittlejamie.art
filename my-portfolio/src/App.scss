@@ -1,0 +1,24 @@
+$jamie-gray: rgba(75, 68, 67, 0.2);
+/* Desktop view */
+.App {
+	height: 100%;
+	background-color: $jamie-gray;
+
+	&_header {
+		height: 15%;
+		margin: 0;
+	}
+
+	&_CTA {
+		background-image: url('./assets/CTA.svg');
+		height: 70%;
+	}
+
+	&_footer {
+		height: 15%;
+	}
+}
+
+/* Mobile view */
+@media screen and (min-width: 468px) {
+}
