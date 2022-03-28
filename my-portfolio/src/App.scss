@@ -11,17 +11,60 @@ $jamie-gray: rgba(75, 68, 67, 0.2);
 		align-items: center;
 		&_title {
 			margin: 0;
-			font-family: 'Roboto';
 			font-style: italic;
 			font-weight: 300;
 			font-size: 4rem;
-			color: white;
 		}
 	}
 
 	&_CTA {
 		background-image: url('./assets/CTA.svg');
 		height: 70%;
+
+		&_top-wrapper {
+			border: solid black;
+			display: flex;
+			flex-direction: column;
+			height: 70%;
+			display: flex;
+			justify-content: center;
+
+			&_text {
+				font-style: normal;
+				font-weight: 700;
+				font-size: 4rem;
+			}
+		}
+
+		&_center-wrapper {
+			border: solid black;
+			height: 8%;
+
+			&_button {
+				width: 265px;
+				height: 40px;
+				background: linear-gradient(
+					0deg,
+					rgba(140, 46, 38, 0.4),
+					rgba(140, 46, 38, 0.4)
+				);
+				box-shadow: 1px 1px 2px #ffffff, -1px -1px 2px #fffdfd;
+				border-radius: 35px;
+				font-style: normal;
+				font-weight: 700;
+				font-size: 30px;
+				color: white;
+			}
+		}
+
+		&_bottom-wrapper {
+			border: solid black;
+			height: 20%;
+			display: flex;
+			justify-content: right;
+			align-items: center;
+			margin-right: 10px;
+		}
 	}
 
 	&_footer {
