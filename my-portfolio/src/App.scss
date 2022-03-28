@@ -6,8 +6,16 @@ $jamie-gray: rgba(75, 68, 67, 0.2);
 
 	&_header {
 		height: 15%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		&_title {
 			margin: 0;
+			font-family: 'Roboto';
+			font-style: italic;
+			font-weight: 300;
+			font-size: 4rem;
+			color: white;
 		}
 	}
 
