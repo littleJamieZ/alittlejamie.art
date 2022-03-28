@@ -6,7 +6,9 @@ $jamie-gray: rgba(75, 68, 67, 0.2);
 
 	&_header {
 		height: 15%;
-		margin: 0;
+		&_title {
+			margin: 0;
+		}
 	}
 
 	&_CTA {
