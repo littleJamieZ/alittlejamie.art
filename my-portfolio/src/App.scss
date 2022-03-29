@@ -22,23 +22,27 @@ $jamie-gray: rgba(75, 68, 67, 0.2);
 		height: 70%;
 
 		&_top-wrapper {
-			border: solid black;
-			display: flex;
-			flex-direction: column;
 			height: 70%;
-			display: flex;
-			justify-content: center;
+			position: relative;
 
-			&_text {
-				font-style: normal;
-				font-weight: 700;
-				font-size: 4rem;
+			&_text-wrapper {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				position: absolute;
+				top: 60px;
+				left: 12px;
+
+				&_text {
+					font-style: normal;
+					font-weight: 700;
+					font-size: 4rem;
+				}
 			}
 		}
 
 		&_center-wrapper {
-			border: solid black;
-			height: 8%;
+			height: 10%;
 
 			&_button {
 				width: 265px;
@@ -54,16 +58,24 @@ $jamie-gray: rgba(75, 68, 67, 0.2);
 				font-weight: 700;
 				font-size: 30px;
 				color: white;
+				margin: 12px;
+				border: none;
 			}
 		}
 
 		&_bottom-wrapper {
-			border: solid black;
 			height: 20%;
 			display: flex;
 			justify-content: right;
 			align-items: center;
-			margin-right: 10px;
+
+			&:after {
+				content: '';
+				background-image: url('./assets/protfolio.svg');
+				height: 79px;
+				width: 265px;
+				position: absolute;
+			}
 		}
 	}
 
