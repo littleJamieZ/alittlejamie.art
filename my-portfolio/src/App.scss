@@ -81,6 +81,14 @@ $jamie-gray: rgba(75, 68, 67, 0.2);
 
 	&_footer {
 		height: 15%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		&_logo {
+			margin-left: 18px;
+			margin-right: 18px;
+		}
 	}
 }
 

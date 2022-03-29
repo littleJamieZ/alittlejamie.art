@@ -1,6 +1,8 @@
 import './App.scss';
-import { ReactComponent as BehanceLogo } from './assets/behance.svg';
+import { ReactComponent as BehanceLogo } from './assets/behance-icon.svg';
 import { ReactComponent as TwitterLogo } from './assets/twitter-icon.svg';
+import { ReactComponent as GithubLogo } from './assets/github-icon.svg';
+import { ReactComponent as LinkdinLogo } from './assets/linkdin-icon.svg';
 function App() {
 	return (
 		<div className="App">
@@ -33,7 +35,12 @@ function App() {
 				</div>
 				<div className="App_CTA_bottom-wrapper"></div>
 			</div>
-			<footer className="App_footer"></footer>
+			<footer className="App_footer">
+				<LinkdinLogo className="App_footer_logo" />
+				<TwitterLogo className="App_footer_logo" />
+				<BehanceLogo className="App_footer_logo" />
+				<GithubLogo className="App_footer_logo" />
+			</footer>
 		</div>
 	);
 }

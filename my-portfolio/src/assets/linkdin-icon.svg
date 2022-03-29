@@ -1,22 +1,22 @@
 <svg width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_33_34)">
-<circle cx="33.5" cy="33.5" r="30.5" fill="url(#paint0_linear_33_34)" fill-opacity="0.4" shape-rendering="crispEdges"/>
+<g filter="url(#filter0_d_35_39)">
+<circle cx="33.5" cy="33.5" r="30.5" fill="url(#paint0_linear_35_39)" fill-opacity="0.4" shape-rendering="crispEdges"/>
 </g>
 <path d="M41 23.6318C44.1826 23.6318 47.2348 24.9627 49.4853 27.3315C51.7357 29.7004 53 32.9133 53 36.2634V51.0003H45V36.2634C45 35.1467 44.5786 34.0758 43.8284 33.2861C43.0783 32.4965 42.0609 32.0529 41 32.0529C39.9391 32.0529 38.9217 32.4965 38.1716 33.2861C37.4214 34.0758 37 35.1467 37 36.2634V51.0003H29V36.2634C29 32.9133 30.2643 29.7004 32.5147 27.3315C34.7652 24.9627 37.8174 23.6318 41 23.6318V23.6318Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M21 25.7368H13V51H21V25.7368Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M17 19.4211C19.2091 19.4211 21 17.5359 21 15.2105C21 12.8851 19.2091 11 17 11C14.7909 11 13 12.8851 13 15.2105C13 17.5359 14.7909 19.4211 17 19.4211Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <defs>
-<filter id="filter0_d_33_34" x="0" y="0" width="69" height="69" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_35_39" x="0" y="0" width="69" height="69" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="1" dy="1"/>
 <feGaussianBlur stdDeviation="2"/>
 <feComposite in2="hardAlpha" operator="out"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_33_34"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_33_34" result="shape"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_35_39"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_35_39" result="shape"/>
 </filter>
-<linearGradient id="paint0_linear_33_34" x1="33" y1="-3.5" x2="33" y2="68.5" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_35_39" x1="33" y1="-3.5" x2="33" y2="68.5" gradientUnits="userSpaceOnUse">
 <stop stop-color="#8C2E26" stop-opacity="0.71"/>
 <stop offset="0.500327" stop-color="#7D160E" stop-opacity="0.94"/>
 </linearGradient>
