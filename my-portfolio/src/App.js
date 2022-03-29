@@ -25,7 +25,11 @@ function App() {
 							View Projects
 						</button>
 					</a>
-					<button className="App_CTA_center-wrapper_button">View Resume</button>
+					<a href="https://drive.google.com/file/d/12ZdvEhFtMU0cWMxHlM01SGXozGuP2VJO/view?usp=sharing">
+						<button className="App_CTA_center-wrapper_button">
+							View Resume
+						</button>
+					</a>
 				</div>
 				<div className="App_CTA_bottom-wrapper"></div>
 			</div>
