@@ -36,10 +36,18 @@ function App() {
 				<div className="App_CTA_bottom-wrapper"></div>
 			</div>
 			<footer className="App_footer">
-				<LinkdinLogo className="App_footer_logo" />
-				<TwitterLogo className="App_footer_logo" />
-				<BehanceLogo className="App_footer_logo" />
-				<GithubLogo className="App_footer_logo" />
+				<a href="https://www.linkedin.com/in/jamie-zhao-b49a161a6/">
+					<LinkdinLogo className="App_footer_logo" />
+				</a>
+				<a href="https://twitter.com/LittlejamieZ">
+					<TwitterLogo className="App_footer_logo" />
+				</a>
+				<a href="https://www.behance.net/msjamie">
+					<BehanceLogo className="App_footer_logo" />
+				</a>
+				<a href="https://github.com/littleJamieZ">
+					<GithubLogo className="App_footer_logo" />
+				</a>
 			</footer>
 		</div>
 	);
