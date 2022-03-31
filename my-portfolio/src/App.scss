@@ -1,6 +1,7 @@
 $jamie-gray: rgba(75, 68, 67, 0.2);
 $mobile: 320px;
 /* Desktop view */
+
 .App {
 	height: 100%;
 	background-color: $jamie-gray;
@@ -96,7 +97,7 @@ $mobile: 320px;
 }
 
 /* Mobile view */
-@media screen and (min-width: $mobile) {
+@media screen and (max-width: $mobile) {
 	.App {
 		height: 100%;
 		background-color: $jamie-gray;
@@ -115,8 +116,7 @@ $mobile: 320px;
 		}
 
 		&_CTA {
-			//
-			background-image: url('./assets/CTA-mobile.svg');
+			background-image: url('./assets/CTA_mobile.svg');
 			height: 70%;
 			background-repeat: no-repeat;
 
