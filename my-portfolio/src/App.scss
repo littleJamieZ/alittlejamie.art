@@ -1,4 +1,5 @@
 $jamie-gray: rgba(75, 68, 67, 0.2);
+$mobile: 320px;
 /* Desktop view */
 .App {
 	height: 100%;
@@ -95,5 +96,100 @@ $jamie-gray: rgba(75, 68, 67, 0.2);
 }
 
 /* Mobile view */
-@media screen and (min-width: 468px) {
+@media screen and (min-width: $mobile) {
+	.App {
+		height: 100%;
+		background-color: $jamie-gray;
+
+		&_header {
+			height: 15%;
+			display: flex;
+			justify-content: center;
+			align-items: end;
+			&_title {
+				margin: 0;
+				font-style: italic;
+				font-weight: 300;
+				font-size: 2.75rem;
+			}
+		}
+
+		&_CTA {
+			//
+			background-image: url('./assets/CTA-mobile.svg');
+			height: 70%;
+			background-repeat: no-repeat;
+
+			&_top-wrapper {
+				height: 70%;
+				position: relative;
+
+				&_text-wrapper {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					position: absolute;
+					top: 17px;
+					left: 12px;
+
+					&_text {
+						font-style: normal;
+						font-weight: 700;
+						font-size: 1.875rem;
+					}
+				}
+			}
+
+			&_center-wrapper {
+				height: 10%;
+
+				&_button {
+					width: 160px;
+					height: 30px;
+					background: linear-gradient(
+						0deg,
+						rgba(140, 46, 38, 0.4),
+						rgba(140, 46, 38, 0.4)
+					);
+					box-shadow: 1px 1px 2px #ffffff, -1px -1px 2px #fffdfd;
+					border-radius: 35px;
+					font-style: normal;
+					font-weight: 700;
+					font-size: 1.188rem;
+					color: white;
+					margin: 12px;
+					border: none;
+				}
+			}
+
+			&_bottom-wrapper {
+				height: 20%;
+				display: flex;
+				justify-content: right;
+				align-items: center;
+
+				&:after {
+					content: '';
+					background-image: url('./assets/protfolio.svg');
+					height: 79px;
+					width: 265px;
+					position: absolute;
+				}
+			}
+		}
+
+		&_footer {
+			height: 15%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			&_logo {
+				margin-left: 18px;
+				margin-right: 18px;
+				height: 48px;
+				width: 48px;
+			}
+		}
+	}
 }
