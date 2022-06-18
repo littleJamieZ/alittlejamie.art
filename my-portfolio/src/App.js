@@ -14,7 +14,7 @@ function App() {
 					<div className="App_CTA_top-wrapper_text-wrapper">
 						<span className="App_CTA_top-wrapper_text-wrapper_text">Hi</span>
 						<span className="App_CTA_top-wrapper_text-wrapper_text">
-							I'm am UIUX
+							I'm a UIUX
 						</span>
 						<span className="App_CTA_top-wrapper_text-wrapper_text">
 							designer.
